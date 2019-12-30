@@ -24,7 +24,7 @@ function swapCount(arg1, arg2) {
             arr1.push('xy');
             arr2.push('xx');
         };
-
+        //counting the no. of xx and xy values from arg2, so we can validate.
         if (arg2[i] == "xx") {
             countX += 1
         } else if (arg2[i] == "xy") {
@@ -50,7 +50,7 @@ function swapCount(arg1, arg2) {
     };
 
 
-    //If 
+    //diffValues2, diffValues1 are  no. of places that are different from the original required output
     const n1 = Math.min(diffValues2, diffValues1)
     if (n1 % 2 == 0) {
         return n1 / 2;
