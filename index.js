@@ -1,5 +1,7 @@
 
-//We should find the mimi
+//We should find the minimum number of swaps to arrange alternative seatings based on gender.
+//arg1 ==  number of people in a group 
+//arg2 = list of people
 
 
 function swapCount(arg1, arg2) {
