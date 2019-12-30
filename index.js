@@ -9,9 +9,12 @@ function swapCount(arg1, arg2) {
     if (arg1 !== len) {
         return "Arguments are not Correct";
     };
-
+     
+    //diffValues2, diffValues1 are  no. of places that are different from the original required output
     let diffValues1 = 0, diffValues2 = 0;
+    //countX are for no. of XX persons in the array, similarly for countY.
     let countX = 0, countY = 0;
+    //arr1 and arr2 are the assumption output values ex:["xx","xy","xx"] or ["xy","xx","xy"] for arg1 = 3;
     let arr1 = [], arr2 = [];
 
 
